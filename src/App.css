@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .container{
   width: 1080px;
   margin: 20px 40px;
