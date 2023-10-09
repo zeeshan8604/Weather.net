@@ -1,6 +1,4 @@
-body {
-  overflow-x: hidden;
-}
+
 .container{
   width: 1080px;
   margin: 20px 40px;
@@ -30,6 +28,7 @@ body {
 @media screen and (max-width:600px) {
   .container {
       max-width: 95%;
+      overflow-x: hidden;
   }
 }
 
