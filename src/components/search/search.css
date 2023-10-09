@@ -1,0 +1,62 @@
+/* Styles for the Search component */
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+}
+
+/* Styles for the react-select-async-paginate component */
+.react-select-async-paginate {
+  width: 100%;
+}
+
+/* Styles for the dropdown menu */
+.react-select-async-paginate__menu {
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the dropdown options */
+.react-select-async-paginate__option {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.react-select-async-paginate__option:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive styles for maximum width 1000px */
+@media (max-width: 1000px) {
+    .react-select-async-paginate {
+      width: 80%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the component */
+    }
+  }
+  
+  /* Responsive styles for maximum width 600px */
+  @media (max-width: 600px) {
+    .react-select-async-paginate {
+      width: 90%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the component */
+    }
+  }
+  
+  /* Add more media queries for other screen sizes as needed */
+  

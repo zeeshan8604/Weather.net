@@ -1,0 +1,89 @@
+.weather {
+    width: 400px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    background: #333;
+    color: #fff;
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+.top ,.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city {
+    font-weight: 600;
+    font-size: 18px;
+    height: 1;
+    letter-spacing: 1px;
+}
+
+.weather-discription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+
+.weather-icon {
+    width: 100px;
+}
+.tempreture{
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0;
+}
+.details{
+    width: 100%;
+    padding-left: 30px;
+}
+
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter-label{
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+}
+.parameter-value{
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* Default styles for the .weather container */
+
+/* Responsive styles for maximum width 1000px */
+@media screen and (max-width:1024px) {
+    .weather {
+        width: 80%;
+        padding: 0 10px 20px 10px;
+    }
+}
+
+/* Responsive styles for maximum width 600px */
+@media screen and (max-width:600px) {
+    .weather {
+        width: 90%;
+        padding: 0 10px 20px 10px;
+    }
+
+    .temperature {
+        font-size: 50px;
+        letter-spacing: -3px;
+    }
+
+    .parameter-label,
+    .parameter-value {
+        font-size: 12px;
+    }
+}

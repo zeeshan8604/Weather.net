@@ -1,0 +1,14 @@
+footer{
+    background:  var(--color-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+footer h3{
+    color: #757575;
+}
+.footer__copyright{
+    margin-bottom: 4rem;
+    color:#757575;
+}

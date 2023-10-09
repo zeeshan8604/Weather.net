@@ -1,0 +1,40 @@
+.container{
+  width: 1080px;
+  margin: 20px 40px;
+}
+
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive styles for maximum width 1000px */
+@media screen and (max-width:1024px) {
+  .container {
+      max-width: 90%;
+  }
+}
+
+/* Responsive styles for maximum width 600px */
+@media screen and (max-width:600px) {
+  .container {
+      max-width: 95%;
+  }
+}
+
+/* Styles for Search component */
+/* Add styles for the Search component here */
+
+/* Styles for CurrentWeather component */
+/* Add styles for the CurrentWeather component here */
+
+/* Styles for Forecast component */
+/* Add styles for the Forecast component here */

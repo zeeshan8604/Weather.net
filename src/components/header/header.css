@@ -1,0 +1,12 @@
+.header-name{
+    background: #333;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    padding: 2px;
+    margin-bottom: 4px;
+    border-radius: 1rem;
+}
+.header-name h2{
+    padding-bottom: 5px;
+}
